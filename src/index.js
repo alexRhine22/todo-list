@@ -1,3 +1,8 @@
 import _ from 'lodash';
+import {createHeader} from './header.js';
+import {createAside} from './sidebar.js';
 
-alert("Lets Get This Bread");
+document.addEventListener("DOMContentLoaded", () => {
+    createHeader();
+    createAside();
+});
