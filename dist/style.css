@@ -1,0 +1,133 @@
+:root {
+    --color-white: #edf5e1;
+    --color-green: #5cdb95;
+    --color-light-green: #8ee4af;
+    --color-light-blue: #379683;
+    --color-dark-blue: #05386b;
+}
+
+/****************************************************** 
+ Helpers */
+.margin-0 {
+    margin: 0;
+}
+.center-text {
+    text-align: center;
+}
+
+/****************************************************** 
+ Header */
+.header-title {
+    padding: 20px 0;
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+
+/*****************************************************
+ Sidebar */
+.sidebar {
+    margin-top: 0;
+    position: fixed;
+    padding: 20px;
+    height: 100%;
+    width: 400px;
+    background-color: var(--color-light-green);
+}
+
+.sidebar ul {
+    padding-left: 10px;
+}
+
+.sidebar li {
+    background-color: #eee;;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    border: 2px solid var(--color-light-green);
+    margin: 5px 0;
+}
+
+.sidebar li:hover {
+    background-color: #ccc;
+}
+
+.sidebar li.active {
+    border: 2px solid blue;
+}
+
+.sidebar button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+/* .accordion-container {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.accordion {
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    /* justify-content: center; */
+}
+
+.accordion input[type=text] {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+}
+
+.accordion:after {
+    content: '';
+    float: right;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 5px;
+    position: relative;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease; 
+}
+
+.accordion.active {
+    /* color: red; */
+}
+
+.accordion.active:after {
+    content: '';
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.panel {
+    font-size: 18px;
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+    margin: 0 25px;
+}
+
+.panel {
+    display: none;
+}
+
+.panel.active {
+    display: block;
+} */
+/*****************************************************
+Main Content */
+.main {
+    margin-left: 160px;
+}
